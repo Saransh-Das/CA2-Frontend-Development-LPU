@@ -1,0 +1,162 @@
+<!-- Ques:- To create a landing page of
+     Lovely Professional University using HTML, CSS, Javascript. 
+     Don't use any framework -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Lovely Professional University is India's Largest University"
+    />
+    <meta name="robots" content="index,follow" />
+    <link rel="icon" href="/icons/iconmonstr-school-23.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style.css" />
+    <title>LPU | Lovely Professional University</title>
+  </head>
+  <body>
+    <header class="main-head">
+      <nav>
+        <h1 id="logo">
+          <img
+            id="lpu"
+            src="/img/Lovely_Professional_University_logo.png"
+            alt=""
+          />
+          Lovely Professional University
+        </h1>
+        <ul>
+          <li><a href="#locations">LPU Campus</a></li>
+          <li><a href="#benefits">Benefits</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <h2>Welcome to LPU</h2>
+        <h3>
+          Start the journey to your Dream Jobs with LPU <br />
+          <br />For Admissions <br />
+          <br />
+          Contact us
+        </h3>
+        <button><a href="#contact">Book Slot Now</a></button>
+        <br />
+        <br />
+        <br />
+        <marquee id="mark" direction="right"
+          ><p>Think Big || Lovely Professional University</p></marquee
+        >
+      </section>
+
+      <section id="locations">
+        <header class="locations-head">
+          <h2>The Best in Class Facilities</h2>
+          <h3>
+            We cover everything from picking the perfect hostel, <br />
+            Stream and Placements.
+          </h3>
+          <img src="/img/cloud.png" class="moving-cloud-1 cloud" alt="" />
+          <img src="/img/cloud.png" class="moving-cloud-2 cloud" alt="" />
+        </header>
+      </section>
+      <section id="benefits">
+        <header class="benefits-head">
+          <h2>The Dream University</h2>
+          <h3>Start your Journey today and Grab the Dream Jobs</h3>
+        </header>
+        <div class="cards">
+          <div class="card">
+            <div class="card-icon">
+              <img src="/icons/route-solid.svg" alt="" />
+            </div>
+            <h4>Diversity</h4>
+            <p>Students from over 200 countries studying here hassle-free</p>
+          </div>
+          <div class="card">
+            <div class="card-icon">
+              <img src="/icons/bed-solid.svg" alt="" />
+            </div>
+            <h4>Hostel</h4>
+            <p>
+              Hostels available at Pocket-friendly Prices with well funished
+              rooms
+            </p>
+          </div>
+          <div class="card">
+            <div class="card-icon">
+              <img src="/icons/plane-departure-solid.svg" alt="" />
+            </div>
+            <h4>Student Exchange</h4>
+            <p>
+              Foreign Exposure , Scholarship to study abroad and much more
+              awaiting you
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <div class="form-wrapper">
+          <header class="form-head">
+            <h2>Contact Us</h2>
+          </header>
+          <form action="https://formspree.io/f/xeqvlljl" method="POST">
+            <div class="name-form">
+              <label for="name">Name: </label>
+              <input id="name" type="text" name="name" required />
+            </div>
+            <div class="email-form">
+              <label for="email">Email: </label>
+              <input id="email" type="email" name="_replyto" required />
+            </div>
+            <button value="Send" type="submit">Submit</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-wrapper">
+        <h5>Lovely Professional University &copy;</h5>
+        <ul>
+          <li>
+            <a
+              href="https://twitter.com/lpuuniversity?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+              title="twitter-social-media"
+              target="blank"
+              ><img src="/icons/twitter.svg" alt="twitter-social-media"
+            /></a>
+          </li>
+          <li>
+            <a
+              href="https://www.youtube.com/channel/UCX9XV7w4GX6f3bnDKAwMKFQ"
+              title="youtube-social-media"
+              target="blank"
+              ><img src="/icons/youtube.svg" alt="youtube-social-media"
+            /></a>
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/lpuuniversity/?hl=en"
+              title="instagram-social-media"
+              target="blank"
+              ><img src="/icons/instagram.svg" alt="instagram-social-media"
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+  <script src="./index.js"></script>
+</html>
